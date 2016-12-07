@@ -1,0 +1,64 @@
+<style>
+    /* The only rule that matters */
+    #video-background {
+    /*  making the video fullscreen  */
+        position: fixed;
+        right: 0; 
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        width: auto; 
+        height: auto;
+        z-index: -100;
+    }
+
+    /* These just style the content */
+    article {
+    /*  just a fancy border  */
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 10px;
+    }
+
+    h1 {
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        font-size: 36px;
+        letter-spacing: 3px;
+        color: #fff;
+        font-family: Oswald, sans-serif;
+        text-align: center;
+    }
+
+    h1 span {
+        font-family: sans-serif;
+        letter-spacing: 0;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    h1 span a {
+        color: #fff;
+    }
+
+</style>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<!--  Content  -->
+<article>
+  <h1>WHOSE? co. <br /></h1>
+    
+    
+</article>
+
+  
+<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+<video autoplay loop id="video-background" muted>
+  <source src="video/welcome.mp4">
+</video>
