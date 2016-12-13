@@ -56,6 +56,14 @@ myApp.controller('valuesController',['$scope','$log', function($scope,$log){
     
 }]);
 
+myApp.controller('introductionController',['$scope','$log', function($scope,$log){
+    
+}]);
+
+myApp.controller('projectsController',['$scope','$log', function($scope,$log){
+    
+}]);
+
 myApp.controller('contactController',['$scope','$log', function($scope,$log){
     $scope.name='Contact name: yan Hao';
 }]);

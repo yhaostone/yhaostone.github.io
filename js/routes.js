@@ -18,6 +18,17 @@ myApp.config(function($routeProvider){
         controller: 'valuesController'
     })
     
+    .when('/introduction',{
+        templateUrl: 'pages/introduction.html',
+        controller: 'introductionController'
+    })
+    
+    .when('/projects',{
+        templateUrl: 'pages/projects.html',
+        controller: 'projectsController'
+    })
+    
+    
     .when('/second',{
         templateUrl: 'pages/second.html',
         controller: 'secondController'

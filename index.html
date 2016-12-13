@@ -11,39 +11,9 @@
         <!-- Custom CSS Styles -->
         <link rel="stylesheet" href="css/main.css">
         
-        <style>
-            html, body, input, select, textarea
-            {
-                font-size: 1.05em !important;
-            }
-            
-            html{
-                position:relative;
-                min-height: 100%;
-                
-            }
-            
-            body {
-                margin-bottom: 50px;    // leave space for footer
-            }
-            
-            .container { 
-                height: 100%;
-            }
-            
-            .footer {
-                position: absolute;
-                padding: 15px 0px 10px 0px;
-                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-                font-size: 14px;
-                line-height: 1.42857143;
-                color: #fff;
-                background-color: #222;
-                border-color: #080808;    
-                bottom: 0;
-            }
         
-        </style>
+        <!-- font awesome -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         
         <!-- set up Firebase for later use -->
         <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
@@ -72,22 +42,27 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse" >
+                
                 <div class="container">
                 
-                    <div class="navbar-header">
+                    <div class="navbar-header" >
                         <a class="navbar-brand" href="#/" >Welcome to SPA</a>
                     </div>
+                    
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        
                         <ul class="nav navbar-nav navbar-right">
+                            
+                            <li>
+                                <a href="#/introduction">Introduction</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#/projects">Projects</a>
+                            </li>
                             <li>
                                 <a href="#/values">Interests</a>
-                            </li>
-                            <li>
-                                <a href="#/industry">Industry</a>
-                            </li>
-                            <li>
-                                <a href="#/education">Education</a>
                             </li>
                             
                             <li>
